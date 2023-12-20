@@ -102,5 +102,29 @@ nav a {
 
 #first_block {
     display: flex;
-    
+    gap: 20px;
+    align-items: center;
+    width: 1140px;
+    height: 130px;
+    margin: 50px auto 0px auto;
+    color: white;
+    background-color: #30363D;
+    border-radius: 10px;
+    padding: 30px;
+}
+#first_block #one, #first_block #two, #first_block #three, #first_block #four {
+    display: flex;
+}
+#first_block h4 {
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 700;
+}
+#first_block hr {
+    border: 1px solid #4B5157;
+    height: 75px;
+}
+#first_block img {
+    width: 65px;
+    height: 65px;
 }
