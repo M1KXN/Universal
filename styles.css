@@ -128,3 +128,47 @@ nav a {
     width: 65px;
     height: 65px;
 }
+
+#presentation {
+    display: flex;
+    margin: 40px auto;
+    width: 1140px;
+    height: 570px;
+}
+#presentation #image {
+    background-image: url("images/Rectangle.png");
+    width: 877px;
+    height: 570px;
+}
+#presentation #right {
+    width: 263px;
+    background-color: white;
+}
+#presentation #right .blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 99px;
+    margin: 10px 20px 10px 20px;
+    font-size: 14px;
+}
+#presentation #right .blocks #color1, #presentation #right .blocks #color2, #presentation #right .blocks #color3, #presentation #right .blocks #color4, #presentation #right .blocks #color5 {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#presentation #right .blocks #color1 {
+    color: #3BBDC4;
+}
+#presentation #right .blocks #color2 {
+    color: #6E99AE;
+}
+#presentation #right .blocks #color3 {
+    color: #AC8EE3;
+}
+#presentation #right .blocks #color4 {
+    color: #FFA34D;
+}
+#presentation #right .blocks #color5 {
+    color: #3DC47E;
+}
