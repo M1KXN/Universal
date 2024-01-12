@@ -8,8 +8,13 @@ body {
 }
 p, h1, h2, h3, h4, img {
     margin: 0;
+    padding: 0;
 }
-
+hr {
+    margin: 0;
+    padding: 0;
+    opacity: 60%;
+}
 
 #Search img {
     width: 20px;
@@ -139,21 +144,124 @@ nav a {
     background-image: url("images/Rectangle.png");
     width: 877px;
     height: 570px;
+    border-radius: 10px 0px 0px 10px;
+}
+#presentation #image #decor {
+    position: relative;
+    left: 865px;
+    bottom: 87px;
+}
+#presentation #image #face {
+    position: relative;
+    left: 55px;
+    top: 55px;
+}
+#presentation #image .face-text {
+    position: relative;
+    left: 110px;
+    top: 10px;
+    color: white;
+}
+#presentation #image .face-text#gray {
+    color: #FFFFFF;
+    opacity: 40%;
+    font-size: 14px;
+}
+#presentation #image #blue-text {
+    position: relative;
+    left: 55px;
+    top: 165px;
+    color: #4592FF;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#presentation #image #big-text {
+    position: relative;
+    top: 195px;
+    left: 55px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    width: 589px;
+}
+#presentation #image #button {
+    position: relative;
+    top: 215px;
+    left: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 138px;
+    height: 40px;
+    background-color: #4592FF;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+#presentation #image #button img {
+    position: relative;
+    top: 5px;
+}
+#presentation #image #button p {
+    position: relative;
+    bottom: 3px;
+}
+#presentation #image #player {
+    position: relative;
+    top: 170px;
+    left: 223px;
+    display: grid;
+    grid-template: 1fr 1fr / 60px 1fr;
+    width: 272px;
+    color: white;
+}
+#presentation #image #player #gridik2, #presentation #image #player #gridik3 {
+    position: relative;
+    top: 5px;
+}
+#presentation #image #player #gridik {
+    grid-row: 1 / 3;
+}
+#presentation #image #player #gridik2 {
+    grid-row: 1 / 2;
+    opacity: 80%;
+    font-size: 14px;
+} 
+#presentation #image #player #gridik3 {
+    grid-row: 2 / 3;
+    opacity: 40%;
+    font-size: 12px;
 }
 #presentation #right {
     width: 263px;
+    height: 570px;
     background-color: white;
+    border-radius: 0px 10px 10px 0px;
 }
 #presentation #right .blocks {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     height: 99px;
-    margin: 10px 20px 10px 20px;
+    font-size: 14px;
+    padding: 10px;
+}
+#presentation #right .blocks img {
+    position: relative;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+}
+#presentation #right #rec {
+    padding: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
     font-size: 14px;
 }
 #presentation #right .blocks #color1, #presentation #right .blocks #color2, #presentation #right .blocks #color3, #presentation #right .blocks #color4, #presentation #right .blocks #color5 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
 }
