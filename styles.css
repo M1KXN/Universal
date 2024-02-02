@@ -444,9 +444,10 @@ nav a {
     display: flex;
     flex-direction: column;
     width: 263px;
-    height: 770px;
+    height: 720px;
     background-image: url("images/Background.png");
     color: white;
+    border-radius: 0px 0px 10px 10px;
 }
 #NEWS #COLUMNS hr {
     opacity: 50%;
@@ -464,7 +465,7 @@ nav a {
     font-size: 20px;
     font-weight: 700;
     padding-left: 35px;
-    padding-top: 35px;
+    padding-top: 45px;
     width: 248px;
 }
 #NEWS #COLUMNS .names {
@@ -490,4 +491,31 @@ nav a {
     font-size: 14px;
     padding-top: 5px;
     opacity: 50%;
+}
+#NEWS #COLUMNS .short {
+    width: 213px;
+    margin: 0 auto;
+}
+#NEWS #COLUMNS #foot {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+#NEWS #D-Cats {
+    width: 263px;
+    height: 370px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 790;
+}
+#NEWS #D-Cats img {
+    border-radius: 10px 10px 0px 0px;
+}
+#NEWS #D-Cats p {
+    padding-top: 10px;
+    width: 213px;
+    margin: 0 auto;
+    line-height: 25px;
 }
