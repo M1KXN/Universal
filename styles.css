@@ -435,7 +435,7 @@ nav a {
     grid-column: 4 / 5;
     position: relative;
     right: 18px;
-    opacity: 40%;
+    opacity: 60%;
 }
 #NEWS #Popular #info #like {
     grid-row: 2 / 3;
@@ -452,6 +452,8 @@ nav a {
     background-image: url("images/Background.png");
     color: white;
     border-radius: 0px 0px 10px 10px;
+
+    z-index: -2;
 }
 #NEWS #COLUMNS hr {
     opacity: 50%;
@@ -463,7 +465,26 @@ nav a {
     text-transform: uppercase;
 }
 #NEWS #COLUMNS #first, #NEWS #COLUMNS #second, #NEWS #COLUMNS #third {
+    background-repeat: no-repeat;
     height: 200px;  
+}
+#NEWS #COLUMNS img[src$="Quote.png"] {
+    z-index: -1;
+}
+#NEWS #COLUMNS #pict1 {
+    position: absolute;
+    top: 1130px;
+    left: 1060px;
+}
+#NEWS #COLUMNS #pict2 {
+    position: absolute;
+    top: 1330px;
+    left: 1060px;
+}
+#NEWS #COLUMNS #pict3 {
+    position: absolute;
+    top: 1530px;
+    left: 1060px;
 }
 #NEWS #COLUMNS .big {
     font-size: 20px;
@@ -476,7 +497,6 @@ nav a {
     display: grid;
     grid-template: 20px 20px / 45px 1fr;
     column-gap: 10px;
-    /* align-items: center; */
     justify-content: center;
     margin: 0 auto;
     width: 200px;
@@ -530,7 +550,7 @@ nav a {
     grid-column: 2 / 3;
     background-color: #FFFFFF;
     width: 263px;
-    height: 170 px;
+    height: 170px;
     border-radius: 10px;
 }
 #NEWS .boldik {
@@ -624,4 +644,58 @@ nav a {
     width: 848px;
     display: flex;
     flex-direction: column;
+}
+#Slides #top #Flights {
+    background-color: #FFFFFF;
+}
+#Slides #top #Flights img[src$="hands.png"] {
+    float: left;
+    width: 336px;
+    padding: 25px;
+}
+#Slides #top #Food {
+    background-color: #FFFFFF;
+}
+#Slides #top #Food img[src$="butter.png"] {
+    float: left;
+    width: 336px;
+    padding: 25px;
+}
+#Slides #top #Science {
+    background-color: #FFFFFF;
+}
+#Slides #top #Science img[src$="redflower.png"] {
+    float: left;
+    width: 336px;
+    padding: 25px;
+}
+#Slides #top #Health {
+    background-color: #FFFFFF;
+}
+#Slides #top #Health img[src$="sweem.png"] {
+    float: left;
+    width: 336px;
+    padding: 25px;
+}
+#Slides #top #Science2 {
+    background-color: #FFFFFF;
+}
+#Slides #top #Science2 img[src$="trees.png"] {
+    float: left;
+    width: 336px;
+    padding: 25px;
+}
+#Slides #top #Art-Design {
+    background-color: #FFFFFF;
+}
+#Slides #top #Art-Design img[src$="town.png"] {
+    float: left;
+    width: 336px;
+    padding: 25px;
+}
+#Slides #top .colored-text {
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
 }
