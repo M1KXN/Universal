@@ -640,6 +640,10 @@ nav a {
     width: 1151px;
     margin: 50px auto;
 }
+#Slides hr {
+    width: 798px;
+    margin: 0 auto;
+}
 #Slides #top {
     width: 848px;
     display: flex;
@@ -647,55 +651,173 @@ nav a {
 }
 #Slides #top #Flights {
     background-color: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+    height: 245px;
+}
+#Slides #top #Flights img[src^="images/Bookmark"] {
+    position: absolute;
+    top: 2180px;
+    left: 1060px;
+    width: 20px;
+}
+#Slides #top #Flights .colored-text {
+    color: #4592FF;
 }
 #Slides #top #Flights img[src$="hands.png"] {
     float: left;
     width: 336px;
+    height: 240px;
     padding: 25px;
 }
 #Slides #top #Food {
     background-color: #FFFFFF;
+    height: 245px;
+}
+#Slides #top #Food img[src^="images/Bookmark"] {
+    position: absolute;
+    top: 2425px;
+    left: 1060px;
+    width: 20px;
+}
+#Slides #top  #Food .colored-text {
+    color: #3BBDC4;
 }
 #Slides #top #Food img[src$="butter.png"] {
     float: left;
     width: 336px;
+    height: 240px;
     padding: 25px;
 }
 #Slides #top #Science {
     background-color: #FFFFFF;
+    height: 245px;
+}
+#Slides #top #Science img[src^="images/Bookmark"] {
+    position: absolute;
+    top: 2670px;
+    left: 1060px;
+    width: 20px;
+}
+#Slides #top #Science .colored-text {
+    color: #FF4F52;
 }
 #Slides #top #Science img[src$="redflower.png"] {
     float: left;
     width: 336px;
+    height: 240px;
     padding: 25px;
 }
 #Slides #top #Health {
     background-color: #FFFFFF;
+    height: 245px;
+}
+#Slides #top #Health img[src^="images/Bookmark"] {
+    position: absolute;
+    top: 2920px;
+    left: 1060px;
+    width: 20px;
+}
+#Slides #top #Health .colored-text {
+    color: #3BBDC4;
 }
 #Slides #top #Health img[src$="sweem.png"] {
     float: left;
     width: 336px;
+    height: 240px;
     padding: 25px;
 }
 #Slides #top #Science2 {
     background-color: #FFFFFF;
+    height: 245px;
+}
+#Slides #top #Science2 img[src^="images/Bookmark"] {
+    position: absolute;
+    top: 3160px;
+    left: 1060px;
+    width: 20px;
+}
+#Slides #top #Science2 .colored-text {
+    color: #FF4F52;
 }
 #Slides #top #Science2 img[src$="trees.png"] {
     float: left;
     width: 336px;
+    height: 240px;
     padding: 25px;
 }
 #Slides #top #Art-Design {
     background-color: #FFFFFF;
+    height: 245px;
+    border-radius: 0px 0px 10px 10px;
+}
+#Slides #top #Art-Design img[src^="images/Bookmark"] {
+    position: absolute;
+    top: 3410px;
+    left: 1060px;
+    width: 20px;
+}
+#Slides #top #Art-Design .colored-text {
+    color: #AC8EE3;
 }
 #Slides #top #Art-Design img[src$="town.png"] {
     float: left;
     width: 336px;
+    height: 240px;
     padding: 25px;
 }
 #Slides #top .colored-text {
     text-transform: uppercase;
-    padding: 10px;
+    padding: 30px 0px 0px 0px;
     font-size: 12px;
     font-weight: 700;
+}
+#Slides #top .big-text {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 0px 10px 0px;
+    line-height: 25px;
+    width: 800px;
+}
+#Slides #top .norm-text {
+    font-size: 14px;
+    color: #4B5157;
+    padding: 0px 0px 20px 0px;
+    width: 790px;
+}
+#Slides #top #date, #Slides #top #comm, #Slides #top #like {
+    font-size: 12px;
+    color: #939699;
+}
+#Slides #top img[src^="images"] {
+    position: relative;
+    top: 3px;
+}
+
+#Slides #aside {
+    width: 263px;
+    height: 770px;
+    background-color: #FFFFFF;
+}
+#Slides #aside div {
+    height: 90px;
+}
+#Slides #aside img {
+    position: relative;
+    top: 15px;
+    left: 25px;
+    width: 60px;
+}
+#Slides #aside .hr {
+    width: 213px;
+    margin: 0 auto;
+}
+#Slides #aside hr {
+    width: 263px;
+}
+#Slides #aside .text1 {
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+    font-size: 14px;
+    width: 150px;
 }
