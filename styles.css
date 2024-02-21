@@ -657,7 +657,7 @@ nav a {
 #Slides #top #Flights img[src^="images/Bookmark"] {
     position: absolute;
     top: 2180px;
-    left: 1060px;
+    left: 980px;
     width: 20px;
 }
 #Slides #top #Flights .colored-text {
@@ -676,7 +676,7 @@ nav a {
 #Slides #top #Food img[src^="images/Bookmark"] {
     position: absolute;
     top: 2425px;
-    left: 1060px;
+    left: 980px;
     width: 20px;
 }
 #Slides #top  #Food .colored-text {
@@ -695,7 +695,7 @@ nav a {
 #Slides #top #Science img[src^="images/Bookmark"] {
     position: absolute;
     top: 2670px;
-    left: 1060px;
+    left: 980px;
     width: 20px;
 }
 #Slides #top #Science .colored-text {
@@ -714,7 +714,7 @@ nav a {
 #Slides #top #Health img[src^="images/Bookmark"] {
     position: absolute;
     top: 2920px;
-    left: 1060px;
+    left: 980px;
     width: 20px;
 }
 #Slides #top #Health .colored-text {
@@ -733,7 +733,7 @@ nav a {
 #Slides #top #Science2 img[src^="images/Bookmark"] {
     position: absolute;
     top: 3160px;
-    left: 1060px;
+    left: 980px;
     width: 20px;
 }
 #Slides #top #Science2 .colored-text {
@@ -753,7 +753,7 @@ nav a {
 #Slides #top #Art-Design img[src^="images/Bookmark"] {
     position: absolute;
     top: 3410px;
-    left: 1060px;
+    left: 980px;
     width: 20px;
 }
 #Slides #top #Art-Design .colored-text {
@@ -797,6 +797,7 @@ nav a {
     width: 263px;
     height: 770px;
     background-color: #FFFFFF;
+    border-radius: 10px;
 }
 #Slides #aside div {
     height: 90px;
@@ -806,6 +807,15 @@ nav a {
     top: 15px;
     left: 25px;
     width: 60px;
+}
+#Slides #aside #recom {
+    height: 60px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 20px;
 }
 #Slides #aside .hr {
     width: 213px;
@@ -820,4 +830,49 @@ nav a {
     left: 100px;
     font-size: 14px;
     width: 150px;
+}
+#Slides #aside .time {
+    position: relative;
+    bottom: 35px;
+    left: 100px;
+    color: #939699;
+    font-size: 12px;
+}
+#Slides #aside #read {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+    height: 60px;
+}
+
+#Hot {
+    background-color: #262D33;
+    height: 690px;
+}
+#Hot #readers {
+    position: relative;
+    top: 50px;
+    left: 113px;
+    width: 555px;
+    height: 570px;
+    background-image: url("images/ship.png");
+    background-size: 555px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+#Hot #readers #ugol {
+    width: 45px;
+    height: 25px;
+    background-color: #FF4F52;
+}
+#Hot #readers img[src$="207.png"] {
+    position: relative;
+    left: 255px;
+    margin: 20px auto;
+}
+#Hot #readers #text1 {
+    position: relative;
+    left: 195px;
+    font-size: 14px;
 }
